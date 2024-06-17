@@ -1,0 +1,22 @@
+{
+  "name": "vendor/nvmphp",
+  "description": "A PHP package to manage Node.js installations",
+  "type": "library",
+  "version": "0.1.0",
+  "autoload": {
+    "psr-4": {
+      "Vendor\\nvmPhp\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "scripts": {
+    "print-versions": [
+      "@php -r \"require 'vendor/autoload.php'; Vendor\\nvmPhp\\nvmPhp::printNodeVersions();\""
+    ],
+    "launch-terminal-with-test-cmd": [
+      "@php -r \"require 'vendor/autoload.php'; Vendor\\nvmPhp\\nvmPhp::launchTerminalWithNodeCommand('npx -v && npx @neutralinojs/neu create myApp && cd myApp && npx @neutralinojs/neu run');\""
+    ]
+  }
+}
