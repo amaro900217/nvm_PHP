@@ -4,13 +4,9 @@ A PHP library that allows you to manage portable Node.js installations directly 
 
 ## 🚀 Features
 
-- **🔄 Automatic Download & Installation**: Downloads and installs any Node.js version automatically
-- **📦 Smart Caching**: Avoids re-downloading existing files
-- **🗑️ Complete Uninstall**: Removes installations and all associated files
-- **🛡️ Robust File Management**: Handles stubborn files and permission issues during removal
+- **🔄 Automatic Download**: Downloads any Node.js version automatically
 - **🌐 Multi-platform Support**: Works on Linux, macOS, and Windows
-- **⚡ Version Management**: List, install, and manage multiple Node.js versions
-- **🔧 Terminal Integration**: Launch terminals with Node.js environment configured
+- **⚡ Version Management**: List, install as dev-dependency, and manage multiple Node.js versions
 - **🛡️ Safe Operations**: Confirmation prompts before destructive operations
 
 ## 📋 Requirements
@@ -22,7 +18,7 @@ A PHP library that allows you to manage portable Node.js installations directly 
 ## 🛠️ Installation
 
 ```bash
-composer require vendor/nvmphp
+git clone https://github.com/amaro900217/nvm_PHP.git
 ```
 
 ## 📖 Usage
