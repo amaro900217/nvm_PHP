@@ -1,6 +1,6 @@
 # nvmPHP - Node.js Version Manager for PHP
 
-A powerful PHP library that allows you to manage Node.js installations directly from PHP, similar to nvm but written in PHP.
+A PHP library that allows you to manage portable Node.js installations directly from PHP, similar to nvm but written in PHP. It allows you to use node in your project as a developer dependency for various tasks.
 
 ## 🚀 Features
 
