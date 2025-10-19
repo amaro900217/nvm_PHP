@@ -255,14 +255,18 @@ nvmPHP/
 │   ├── nvmPhp.php         # Main nvmPHP class
 │   └── install-node.php   # Interactive installation script
 └── vendor/                # Composer dependencies
+```
+
 ## 📁 Installation Directories
 
 Node.js installations are stored in:
+
 ```
 src/bin/node-{version}-{platform}-{arch}/
 ```
 
 For example:
+
 ```
 src/bin/node-v20.14.0-linux-x64/
 src/bin/node-v18.17.0-darwin-x64/
